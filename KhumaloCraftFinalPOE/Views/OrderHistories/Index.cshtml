@@ -1,0 +1,77 @@
+﻿@model IEnumerable<KhumaloCraftFinalPOE.Models.OrderHistory>
+
+@{
+    ViewData["Title"] = "Order History";
+}
+
+<style>
+    body {
+        background-color: #E6D4B8; /* Light cappuccino color */
+    }
+    .order-history {
+        background-color: #ffffff; /* White box */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+    .order-history h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .order-history table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .order-history th, .order-history td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+    .order-history th {
+        background-color: #8B4513;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    .order-history tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .order-history tr:hover {
+        background-color: #ddd;
+    }
+    .order-history .total-price {
+        font-weight: bold;
+    }
+</style>
+
+<div class="container order-history">
+    <h1>Order History</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>User ID</th>
+                <th>Order Date</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Where(t => t.UserId == User.Identity?.Name!))
+            {
+                <tr>
+                    <td>@item.Products.Name</td>
+                    <td>@Html.DisplayFor(modelItem => item.UserId)</td>
+                    <td>@Html.DisplayFor(modelItem => item.OrderDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Products.Price)</td>
+                    <td class="total-price">@(item.Quantity * item.Products.Price)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

@@ -1,0 +1,426 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\views\\orderhistories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:views\\orderhistories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\views\\processors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:views\\processors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\controllers\\processorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:controllers\\processorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\models\\processor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:models\\processor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\models\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:models\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\views\\transactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:views\\transactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\controllers\\orderhistoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:controllers\\orderhistoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\data\\migrations\\20240619094704_fixprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:data\\migrations\\20240619094704_fixprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\data\\migrations\\20240619090747_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:data\\migrations\\20240619090747_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|c:\\users\\caide\\onedrive\\documents\\cos 132\\khumalocraftfinalpoe\\data\\migrations\\20240619092334_controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC2472-83C2-48D1-851F-BCCB44898F49}|KhumaloCraftFinalPOE.csproj|solutionrelative:data\\migrations\\20240619092334_controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 154,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Processors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Processors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Processors\\Index.cshtml",
+              "RelativeToolTip": "Views\\Processors\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:20:03.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\OrderHistories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderHistories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\OrderHistories\\Index.cshtml",
+              "RelativeToolTip": "Views\\OrderHistories\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:19:02.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:21:03.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:22:04.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T10:05:09.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:54:17.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAiwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T12:10:22.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:12:42.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProcessorsController.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\ProcessorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProcessorsController.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\ProcessorsController.cs",
+              "RelativeToolTip": "Controllers\\ProcessorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:11:24.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:20:33.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:12:02.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T14:15:21.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "Models\\Products.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\Products.cs",
+              "RelativeToolTip": "Models\\Products.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:04:02.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderHistory.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\OrderHistory.cs",
+              "RelativeDocumentMoniker": "Models\\OrderHistory.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\OrderHistory.cs",
+              "RelativeToolTip": "Models\\OrderHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:03:30.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Processor.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\Processor.cs",
+              "RelativeDocumentMoniker": "Models\\Processor.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\Processor.cs",
+              "RelativeToolTip": "Models\\Processor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:03:46.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "Controllers\\TransactionsController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwF8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:12:27.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Transactions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transactions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Views\\Transactions\\Index.cshtml",
+              "RelativeToolTip": "Views\\Transactions\\Index.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAUwEcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:22:44.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\Transactions.cs",
+              "RelativeDocumentMoniker": "Models\\Transactions.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\Transactions.cs",
+              "RelativeToolTip": "Models\\Transactions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:04:26.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-19T09:55:02.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderHistoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\OrderHistoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderHistoriesController.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Controllers\\OrderHistoriesController.cs",
+              "RelativeToolTip": "Controllers\\OrderHistoriesController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:10:40.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240619094704_FixProcess.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Data\\Migrations\\20240619094704_FixProcess.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240619094704_FixProcess.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Data\\Migrations\\20240619094704_FixProcess.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240619094704_FixProcess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:47:07.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240619092334_Controllers.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Data\\Migrations\\20240619092334_Controllers.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240619092334_Controllers.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Data\\Migrations\\20240619092334_Controllers.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240619092334_Controllers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:23:34.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240619090747_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Data\\Migrations\\20240619090747_Initial.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240619090747_Initial.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Data\\Migrations\\20240619090747_Initial.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240619090747_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:07:49.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\caide\\OneDrive\\Documents\\COS 132\\KhumaloCraftFinalPOE\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:04:32.507Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

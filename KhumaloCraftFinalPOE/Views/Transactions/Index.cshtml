@@ -1,0 +1,103 @@
+﻿@model IEnumerable<KhumaloCraftFinalPOE.Models.Transactions>
+
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<style>
+    body {
+        background-color: #E6D4B8; /* Light cappuccino color */
+    }
+    .cart-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+    .cart-container h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .cart-table {
+        width: 100%;
+        margin-bottom: 20px;
+        border-collapse: collapse;
+    }
+    .cart-table th, .cart-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .cart-table th {
+        background-color: #f8f8f8;
+        font-weight: bold;
+    }
+    .cart-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    .cart-table tr:hover {
+        background-color: #f1f1f1;
+    }
+    .btn-primary {
+        background-color: #8B4513;
+        border-color: #8B4513;
+        color: #fff;
+    }
+    .btn-primary:hover {
+        background-color: #704010;
+        border-color: #704010;
+    }
+    .btn-danger {
+        background-color: #d9534f;
+        border-color: #d43f3a;
+        color: #fff;
+    }
+    .btn-danger:hover {
+        background-color: #c9302c;
+        border-color: #ac2925;
+    }
+</style>
+
+<div class="container cart-container">
+    <h1>Cart</h1>
+
+    <p class="text-center">
+        <a asp-action="Create" class="btn btn-primary">Add New Product</a>
+    </p>
+    
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>@Html.DisplayNameFor(model => model.UserId)</th>
+                <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+                <th>@Html.DisplayNameFor(model => model.TransactionDate)</th>
+                <th>ProductId</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Where(t => t.UserId == User.Identity?.Name!))
+            {
+                <tr>
+                    <td>@item.Products.Name</td>
+                    <td>@Html.DisplayFor(modelItem => item.UserId)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TransactionDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Products.ProductId)</td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@item.TransactionId" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="checkout-btn">
+        <form asp-action="Checkout" asp-controller="Transactions" method="post">
+            <button type="submit" class="btn btn-success">Checkout</button>
+        </form>
+    </div>
+</div>

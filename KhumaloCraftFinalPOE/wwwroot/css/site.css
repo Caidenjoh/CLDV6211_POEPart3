@@ -1,0 +1,55 @@
+body {
+    font-family: 'Baskerville', serif;
+    font-size: 18px; /* Increase base font size */
+    line-height: 1.6; /* Improve readability */
+}
+
+h1 {
+    font-family: 'Baskerville', serif;
+    font-size: 36px; /* Increase font size for h1 */
+}
+
+h2 {
+    font-family: 'Baskerville', serif;
+    font-size: 32px; /* Increase font size for h2 */
+}
+
+h3 {
+    font-family: 'Baskerville', serif;
+    font-size: 28px; /* Increase font size for h3 */
+}
+
+h4 {
+    font-family: 'Baskerville', serif;
+    font-size: 24px; /* Increase font size for h4 */
+}
+
+h5 {
+    font-family: 'Baskerville', serif;
+    font-size: 20px; /* Increase font size for h5 */
+}
+
+h6 {
+    font-family: 'Baskerville', serif;
+    font-size: 18px; /* Increase font size for h6 */
+}
+
+.navbar, .footer, .btn {
+    font-family: 'Baskerville', serif;
+    font-size: 18px; /* Adjust font size for navigation bar, footer, and buttons */
+}
+
+.navbar-brand {
+    font-family: 'Baskerville', serif;
+    font-size: 22px; /* Set the font size for the "KhumaloCraft" heading */
+}
+
+.table th, .table td {
+    font-family: 'Baskerville', serif;
+    font-size: 18px; /* Adjust font size for table headers and cells */
+}
+
+.form-label, .form-control {
+    font-family: 'Baskerville', serif;
+    font-size: 18x; /* Adjust font size for form labels and controls */
+}

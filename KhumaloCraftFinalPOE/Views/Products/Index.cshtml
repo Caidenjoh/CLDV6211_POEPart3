@@ -1,0 +1,117 @@
+﻿@model IEnumerable<KhumaloCraftFinalPOE.Models.Products>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@{
+    var userEmail = User.Identity.Name;
+}
+
+<style>
+    body {
+        background-color: #E6D4B8; /* Light cappuccino color */
+    }
+
+    .product-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        margin: 10px;
+        background-color: #fff;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-card h5 {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .product-card p {
+            color: #777;
+        }
+
+        .product-card .price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .product-card .btn-primary {
+            background-color: #8b4513;
+            border-color: #8b4513;
+        }
+
+        .product-card .btn-group a {
+            margin: 5px 5px 5px 0;
+        }
+</style>
+
+<div style="background-color: #E6D4B8; padding: 20px;">
+    <h1 class="text-center">Products</h1>
+
+    @if (userEmail == "Admin@gmail.com")
+    {
+        <p class="text-center">
+            <a asp-action="Create" class="btn btn-primary">Create New</a>
+        </p>
+    }
+
+    <form asp-action="Index" method="get" class="text-center mb-4">
+        <select name="category" asp-items="ViewBag.Categories" class="form-control" style="display:inline-block; width:auto;">
+            <option value="">All Categories</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Filter</button>
+    </form>
+
+    @if (!Model.Any())
+    {
+        <p class="text-center">No products found under the selected category.</p>
+    }
+    else
+    {
+        <div class="row justify-content-center">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <!-- Image on top -->
+                        <img src="@item.ImageUrl" alt="Product Image">
+
+                        <!-- Details below -->
+                        <h5>@Html.DisplayFor(modelItem => item.Name)</h5>
+
+                        <p>
+                            Price: @Html.DisplayFor(modelItem => item.Price)<br>
+                            Category: @Html.DisplayFor(modelItem => item.Category)<br>
+                            Description: @Html.DisplayFor(modelItem => item.Description)<br>
+                            Availability: @Html.DisplayFor(modelItem => item.Availability)
+                        </p>
+                        <form asp-action="AddToCart" asp-controller="Transactions" method="post">
+                            <input type="hidden" name="ProductId" value="@item.ProductId" />
+                            <button type="submit" class="btn btn-primary">Add to Cart</button>
+                        </form>
+
+                        @if (userEmail == "Admin@gmail.com")
+                        {
+                            <div class="btn-group mt-3">
+                                <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-warning">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-info">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-danger">Delete</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+

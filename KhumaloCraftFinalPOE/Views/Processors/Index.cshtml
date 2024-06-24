@@ -1,0 +1,113 @@
+﻿@model IEnumerable<KhumaloCraftFinalPOE.Models.Processor>
+
+@{
+    ViewData["Title"] = "Processing";
+    var userEmail = User.Identity.Name;
+}
+
+<style>
+    body {
+        background-color: #E6D4B8; /* Light cappuccino color */
+    }
+    .processing-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+    .processing-container h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .processing-table {
+        width: 100%;
+        margin-bottom: 20px;
+        border-collapse: collapse;
+    }
+    .processing-table th, .processing-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .processing-table th {
+        background-color: #f8f8f8;
+        font-weight: bold;
+    }
+    .processing-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    .processing-table tr:hover {
+        background-color: #f1f1f1;
+    }
+    .btn-success {
+        background-color: #8B4513;
+        border-color: #8B4513;
+        color: #fff;
+    }
+    .btn-success:hover {
+        background-color: #704010;
+        border-color: #704010;
+    }
+</style>
+
+<div class="container processing-container">
+    <h1>Processing</h1>
+
+    @if (userEmail == "Admin@gmail.com")
+    {
+        <table class="processing-table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.UserId)</th>
+                    <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+                    <th>@Html.DisplayNameFor(model => model.ProcessingDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.Transaction)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.UserId)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ProcessingDate)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Transaction.TransactionId)</td>
+                        <td>
+                            <form method="post" action="@Url.Action("ProcessOrder", "Processors", new { id = item.TransactionId })">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-success">Process</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <table class="processing-table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.UserId)</th>
+                    <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+                    <th>@Html.DisplayNameFor(model => model.ProcessingDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.Transaction)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Where(t => t.UserId == User.Identity?.Name!))
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.UserId)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ProcessingDate)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Transaction.TransactionId)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
